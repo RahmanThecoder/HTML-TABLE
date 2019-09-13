@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+}
+h1{
+  font-size: 20px;
+  padding-top:19px;
+  padding-right: 80px;
+  float:right;
+
+}
+
+
+i{
+    font-size: 30px;
+    margin: 20px 5px;
+
+    background: none;
+    color:white;
+    float:left;
+}
+
+
+.class1{
+  width:200px;
+  height:100px;
+  color:blue;
+  background: green;
+}
+.class1:hover i h1
+{
+  color:#35353;
+}

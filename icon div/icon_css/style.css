@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+i{
+    font-size: 40px;
+    margin: 30px;
+    padding: 30px;
+    background: #f1f1f1;
+    color: #000;
+}
+i.fa-google-plus-g{
+    color: #f4e108;
+    position: 300px;
+}
+i.fa-angle-right
+{
+  color: #fc0394;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right:0px;
+  background: none;
+}
+i.fa-twitter{
+  color:#1354bd;
+
+}

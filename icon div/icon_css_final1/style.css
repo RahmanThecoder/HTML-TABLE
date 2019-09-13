@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ol,
+ul {
+    list-style-type: none;
+}
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+p{
+  font-size: 15px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: 200;
+}
+h1,
+h2,
+h3,
+a {
+    font-family: 'Oswald', sans-serif;
+}
+
+.button1
+{
+  display: inline-block;
+  padding: 10px 13px;
+  color: white;
+  border:2px solid blue;
+  padding-top: 17px;
+}
+
+
+
+.wrapper_full {
+    width: 100%;
+    height:50px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.clr {
+    clear: both;
+}
+
+body{
+}
+
+
+
+
+
+
+/* header_part start */
+.header_part {
+    background: green;
+    padding: 10px 0px;
+}
+
+.header_content {
+    width: 460px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.header_content p {
+    color: #e7e7e7;
+    font-size: 14px;
+    margin:0px 50px;
+}
+.header_content a{
+  /* font-size: 12px; */
+  /* margin-left: 20px; */
+  margin-top: 50px;
+}
+i.fa-camera-retro{
+  font-size: 30px;
+  color:white;
+}
+.partsname{
+  float: right;
+}
+/* .header_content.partsname ul{
+  float:left;
+} */
+.partsname ul li{
+  float:left;
+ padding:5px 5px;
+  
+}
+.partsname ul li a{
+font-size:20px;
+}
+.partsname ul li:first-child{
+	
+  padding-right: 110px;
+
+}
+.partname ul li:hover a{
+  color: red;
+  cursor: pointer;
+
+}
+.header_sicon {
+    width: 460px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.header_sicon ul {
+    float: right;
+}
+
+.header_sicon ul li {
+    float: left;
+}
+
+.header_sicon ul li a {
+    display: block;
+    padding: 0px 13px;
+    color: #e7e7e7;
+    font-size: 30px;
+    transition: all linear 0.4s;
+}
+
+.header_sicon ul li:hover a {
+    color: #353535;
+}
+
+.header_sicon ul li:last-child a {
+    padding-right: 0;
+}
+
+.header_sicon ul li:first-child a {
+    padding-left: 0;
+}
+/* background part */
+.background_part{
+  background: green;
+  height:250px;
+  background: url(../images/capture2.jpg);
+  /* background: url(../images/capture1.jpg); */
+  background-size:cover;
+  background-repeat:no-repeat;
+  animation-duration: 0.4s;
+  background-position:top;
+  background-attachment: local;
+}
+.overlay{
+  width:auto;
+  height:250px;
+  /* color: rgba(0, 0, 0, 0.6); */
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.bg_content{
+  width:400px;
+  float:left;
+}
+.bg_content a.button1
+{
+  margin-top: 20px;
+  margin-left:10px;
+}
+.button1:hover{
+  background:pink;
+  border-radius: 30%;
+  border-color: green;
+}
+i.fa-angle-right,
+i.fa-angle-left{
+  background: white;
+  border-radius: 30%;
+  padding: 2px 2px;
+  /* padding: 50px 30px; */
+  /* padding-top: 30px; */
+}
+i.fa-angle-left{
+ float:left;
+ /* padding-top: 100px; */
+ margin:100px 100px;
+}
+.fa-angle-left:hover{
+  background-color: red;
+  color: green;
+}
+.fa-angle-right:hover{
+  color:red;
+}
+i.fa-angle-right{
+  float:right;
+  margin:100px 150px;
+}
+
+/* background part ended */
+
+/* just small part started */
+.small_part{
+  width:auto;
+  background-color: #fff;
+}
+.small_content{
+  font-size: 20px;
+}
+.small_content ul{
+  float:right;
+
+}
+.small_content ul li{
+  float:left;
+  padding:20px 79px;
+}
+.small_content ul li a{
+  color: #e7e7e7;
+}
+
+/* just small part ended */
+
+/* Mobile image and all service part start */
+.Mobile_part{
+  width: auto;
+  height:300px;
+}
+
+.image_half1{
+width:350px;
+float: left;
+}
+.image_half1 img{
+  height:250px;
+  padding-left: 30px;
+  padding:18px 30px;
+  /* background: none; */
+  /* background-color: none; */
+}
+.button2{
+  display: inline-block;
+  padding: 9px;
+  border:2px solid red;
+}
+
+.content_half1 h1{
+  /* want to change again u can do now */
+}
+.content_half1 p{
+    /* want to change again u can do now */
+}
+.content_half1 ul{
+
+}
+.content_half1 ul li{
+
+}
+.content_half1 ul li a{
+/* padding-top: 7px; */
+/* padding-bottom:2px; */
+}
+.content_half1 ul li a i{
+padding-top: 7px;
+/* padding-bottom: 3px; */
+}
+.content_half1 ul li:hover a{
+  color: yellow;
+  /* background-color: pink; */
+}
+.content_half1 a{
+  padding-top: 4px;
+}
+.content_half1 a i{
+  padding-top: :5px;
+}
+.content_half1:hover a button2{
+  color:white;
+  /* background:yellow; */
+}
+/* Mobile image and all service part end */
+
+/* only service Part start */
+.Service_partt{
+  width: auto;
+  height:300px;
+}
+.ist_icon{
+  width: auto;
+  height:150px;
+  background-color: red;
+}
+
+.snd_icon{
+
+}
+.Service_partt i{
+    font-size: 20px;
+  padding-left: 132px;
+  padding-top: 9px;
+  padding-bottom: 7px;
+
+}
+/* i.Service_partt{
+  font-size: 20px;
+padding-left: 98px;
+padding-top: 9px;
+padding-bottom: 7px;
+} */
+.Service_partt h3{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-left: 54px;
+  padding-bottom: 8px;
+}
+.Service_partt p{
+  font-size: 16px;
+  padding-left: 24px;
+  font-style: italic;
+  font-weight: 100;
+
+}
+.f1{
+width: 320px;
+height:150px;
+background-color:orange;
+float:left;
+}
+.f2{
+width: 320px;
+height:150px;
+background-color:pink;
+float:left;
+}
+.f3{
+width: 320px;
+height:150px;
+background-color:yellow;
+float:right;
+}
+.f4{
+width: 320px;
+height:150px;
+background-color:green;
+float:right;
+}
+.f5{
+width: 320px;
+height:150px;
+background-color:yellow;
+float:right;
+}
+.f6{
+width: 320px;
+height:150px;
+background-color:red;
+float:right;
+}
+
+
+/* only service part end */
+
+
+
+/* faltu part start */
+.faltu_part{
+  width:auto;
+  height:400px;
+}
+
+.faltu_part p{
+  font-size: 16px;
+  padding-left: 3px;
+  font-style: italic;
+  font-weight: 100;
+  /* align-content: center; */
+  padding-left: 198px;
+  padding-top: 57px;
+  padding-bottom:9px;
+  align-content: center;
+}
+.faltu_part h2{
+  padding-left: 387px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.faltu_part h3{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  /* padding-left: 50px; */
+  padding-bottom: 8px;
+  padding-left: 370px;
+}
+
+.faltu_part a i{
+  border-radius: 30%;
+border: 2px solid black;
+  font-size: 20px;
+
+}
+  .faltu_part  i.fa-angle-right{
+   float:right;
+padding-right: 200px;
+
+}
+.faltu_part  i.fa-angle-left{
+  float:left;
+  padding-left: 200px;
+
+ }
+
+/* faltu part ended */
+
+/* message part started */
+
+.message_part{
+  width: auto;
+  height:200px;
+}
+.msg_content{
+width:100%;
+height:200px;
+}
+.msg_content h3{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 200;
+  padding: 10px 10px;
+  padding-left: 320px;
+}
+
+ input[type=text]{
+  width:300px;
+border-radius: 10px;
+font-size: 16px;
+/* background-color:red; */
+background-image: url('../images/messageicon.png');
+/* background-size: 15px; */
+background-position: right;
+background-size: 18px;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 90px;
+
+}
+/* .message_part input[type=text] img{
+  size:10px;
+} */
+.message_part input{
+  padding-left: 90px;
+  padding-bottom: 30px;
+  margin: 20px 263px;
+}
+.message_part input[type=text]{
+  /* align:center; */
+/* padding-left: 5px; */
+}
+.message_part input[type=text]:focus{
+  background-color: green;
+
+}
+
+/* message part ended */
+
+
+/* last part started */
+.last_part{
+  width:auto;
+  height:300px;
+}
+
+.last_part .lasticon{
+  width:auto;
+  height:150px;
+  background:white;
+}
+.last_part i.lasticon{
+  font-size: 100px;
+  padding: 10px;
+}
+
+.copyright{
+  width: auto;
+  height:150px;
+  background: pink;
+}
+.lasticon a i{
+	font-size:55px;
+  padding: 30px 70px;
+  margin-left:55px;
+}
+.lasticon i.fa-android{
+  padding-left: 110px;
+}
+.last_part p{
+  font-size: 20px;
+  padding:35px 85px;
+}
+
+
+
+/* last part end */
